@@ -1,47 +1,47 @@
 [
     {
        "company_id":"2",
-       "image_url":"\/img\/new_logos\/master.svg",
+       "image_url":".\/img\/new_logos\/master.svg",
        "name": "MasterClasss"
     },
     {
        "company_id":"3",
-       "image_url":"\/img\/new_logos\/bigl.svg",
+       "image_url":".\/img\/new_logos\/bigl.svg",
        "name": "Bigld"
     },
     {
        "company_id":"4",
-       "image_url":"\/img\/new_logos\/attentive.svg",
+       "image_url":".\/img\/new_logos\/attentive.svg",
        "name": "Attentive"
     },
     {
        "company_id":"5",
-       "image_url":"\/img\/new_logos\/circle.svg",
+       "image_url":".\/img\/new_logos\/circle.svg",
        "name": "CircleCi"
     },
     {
        "company_id":"6",
-       "image_url":"\/img\/new_logos\/rubik.svg",
+       "image_url":".\/img\/new_logos\/rubik.svg",
        "name": "Rubik"
     },
     {
        "company_id":"7",
-       "image_url":"\/img\/new_logos\/delfix.svg",
+       "image_url":".\/img\/new_logos\/delfix.svg",
        "name": "Delphix"
     },
     {
        "company_id":"8",
-       "image_url":"\/img\/new_logos\/Dataminr.svg",
+       "image_url":".\/img\/new_logos\/Dataminr.svg",
        "name": "Datamir"
     },
     {
        "company_id":"9",
-       "image_url":"\/img\/new_logos\/outreach.svg",
+       "image_url":".\/img\/new_logos\/outreach.svg",
        "name": "Outreach"
     },
     {
        "company_id":"10",
-       "image_url":"\/img\/new_logos\/chime.svg",
+       "image_url":".\/img\/new_logos\/chime.svg",
        "name": "Chime"
     }
  ]
