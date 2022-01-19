@@ -1,0 +1,23 @@
+<svg width="596" height="121" viewBox="0 0 596 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 13V3.47765C12 2.10928 13.1093 1 14.4776 1H96.5224C97.8907 1 99 2.10928 99 3.47765V13" stroke="#ADADAD" stroke-width="0.8" stroke-dasharray="3.3 3.3"/>
+<path d="M104 13V3.47765C104 2.10928 105.109 1 106.478 1H581.522C582.891 1 584 2.10928 584 3.47765V13" stroke="#ADADAD" stroke-width="0.8" stroke-dasharray="3.3 3.3"/>
+<line x1="23" y1="48.25" x2="91" y2="48.25" stroke="#F06E00" stroke-width="1.5"/>
+<line x1="114" y1="48.25" x2="573" y2="48.25" stroke="#F06E00" stroke-width="1.5"/>
+<circle cx="11.5" cy="48.5" r="11.0871" stroke="#F06E00" stroke-width="0.825882"/>
+<circle cx="102.5" cy="48.5" r="11.0871" stroke="#F06E00" stroke-width="0.825882"/>
+<circle cx="584.5" cy="48.5" r="11.0871" stroke="#F06E00" stroke-width="0.825882"/>
+<ellipse cx="12" cy="48.5" rx="6" ry="5.5" fill="#F06E00"/>
+<ellipse cx="103" cy="48.5" rx="6" ry="5.5" fill="#F06E00"/>
+<ellipse cx="585" cy="48.5" rx="6" ry="5.5" fill="#F06E00"/>
+<path d="M57 31V37" stroke="#151515" stroke-width="1.23882" stroke-linecap="round"/>
+<path d="M53 28V24.4776C53 23.1093 54.1093 22 55.4776 22H58.5224C59.8907 22 61 23.1093 61 24.4776V28" stroke="#151515" stroke-width="0.825882"/>
+<rect x="50.5871" y="27.5871" width="12.8259" height="11.8259" rx="1.23882" stroke="#151515" stroke-width="0.825882"/>
+<path d="M294 89V85.4776C294 84.1093 295.109 83 296.478 83H299.522C300.891 83 302 84.1093 302 85.4776V89" stroke="#151515" stroke-width="0.825882"/>
+<line x1="23" y1="109.25" x2="573" y2="109.25" stroke="#151515" stroke-width="1.5"/>
+<circle cx="11.5" cy="109.5" r="11.0871" stroke="#151515" stroke-width="0.825882"/>
+<circle cx="584.5" cy="109.5" r="11.0871" stroke="#151515" stroke-width="0.825882"/>
+<ellipse cx="12" cy="109.5" rx="6" ry="5.5" fill="#151515"/>
+<ellipse cx="585" cy="109.5" rx="6" ry="5.5" fill="#151515"/>
+<path d="M298 92V98" stroke="#151515" stroke-width="1.23882" stroke-linecap="round"/>
+<rect x="291.587" y="88.5871" width="12.8259" height="11.8259" rx="1.23882" stroke="#151515" stroke-width="0.825882"/>
+</svg>

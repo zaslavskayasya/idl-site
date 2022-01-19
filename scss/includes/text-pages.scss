@@ -1,0 +1,234 @@
+.imprint{
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.simple_text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.simple_bold{ 
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.text-row{
+    border-bottom: 1px solid #ADADAD;
+}
+
+.text-section{
+    .h2-line-15{
+        margin-bottom: 35px;
+    }
+    .heading_3{
+        padding-left: 0px;;
+    }
+}
+
+.simple-contacts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: $darkColor;
+    display: flex;
+    .item{
+        min-width: 300px;
+    }
+    .simple-contacts-name{
+        margin-bottom: 10px;
+    }
+    a {
+        font-weight: 600;
+        color: $darkColor;
+        &:hover{
+            color: $accentColor;
+            transition: all ease-inb-out 0.3s;
+        }
+    }
+
+}
+
+.h1-texts{
+    font-size: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100%;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: #151515;
+}
+.heading_3-texts{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #151515;
+}
+
+// white papers //
+.white-papers{
+    padding: 130px 0px 150px;
+    .btn {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+}
+.text-section .h2-line-15 {
+    margin-bottom: 66px;
+}
+.wpt_text {
+    margin-bottom: 20px;
+}
+.policy-page{
+    padding-top:  130px;
+}
+.white-papers-block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    .papers-item{
+        width: 30%;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+    .arrow-btn{
+        transform: rotate(90deg)
+    }
+}
+.papers_header{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #151515;
+    border-top: 3px solid #E3E3E3;
+    border-bottom: 1px solid #ADADAD;
+    // border-bottom: 3px solid #E3E3E3;
+    padding: 10px 0px;
+}
+.wpt_text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #151515;
+}
+
+span.bold{
+    font-weight: 600;
+}
+.normal_text.w-60{
+    max-width: 60%;
+
+}
+ul.priv-ul{
+    list-style-type: square;
+    list-style-position: inside;
+    li {
+        margin-bottom: 0px;;
+    }
+}
+.priv_heading{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #151515;
+    text-transform: uppercase;
+}
+.risk-row {
+    border-bottom: 1px solid #D5D5D5;
+}
+.risk-row:last-child {
+    border-bottom: none;
+}
+.normal_text.w-500 {
+    font-weight: 500;;
+}
+// @media (max-width: 1200px){
+//     .section.text-section{
+//         padding-top:70px;
+//     }
+// }
+a.no-upper{
+    text-transform: none;
+    font-size: 16px;;
+}
+
+
+@media (max-width: 950px){
+    .imprint{
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    .simple-contacts {
+        flex-direction: column;
+        .item:first-child{
+            margin-bottom: 30px;
+        }
+    }
+
+    .white-papers-block .papers-item {
+        width: 45%;
+    }
+    .normal_text.w-60{
+        max-width: 100%;
+    
+    }
+    .policy-page{
+        padding-top: 75px;
+    }
+    .policy-page.text-section .h2-line-15 {
+        margin-bottom: 26px;
+    }
+    .section.text-section{
+        padding-top:70px;
+    }
+    .policy-page{
+        padding-top:  75px;
+    }
+}
+
+@media (max-width: 760px){
+    .contcts-section{
+        .simple-contacts.h2-line-15{
+            padding: 0px;
+        }
+    }
+    .h1-texts{
+        font-size: 45px;
+        
+    }
+    .white-papers-block .papers-item {
+        width: 100%;
+    }
+    .white-papers.text-section .h2-line-15 {
+        margin-bottom: 19px;
+    }
+}
