@@ -197,6 +197,26 @@
 }
 
 
+@media (max-width: 970px){
+    .disclosure-wrap{
+        display: block;
+    }
+    .disclosure.disclosure-header {
+        width: auto;
+        margin: 0px 0px 20px;
+    }
+
+    .disclosure{
+        width: 100%;
+    }
+    .bottom-text-block{
+        padding: 30px 0px;
+    }
+    .disclosure-part{
+        margin-bottom: 7px;
+    }
+}
+
 @media (max-width: 760px){
     .footer-columns{
         flex-direction: column;
