@@ -16,12 +16,12 @@
 }
 .popup {
     position: fixed;
-    top: 20%;
+    top: 50%;
     left: 50%;
     padding: 50px;
     width: 599px;
     padding: 60px 50px;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     /* margin-left: 5%; */
     background: #fff;
     border-radius: 4px;
@@ -589,10 +589,12 @@ input:invalid{
        line-height: 118.52%;
        padding: 15px;
        /* identical to box height, or 17px */
-       color: #ABABAB;
+       color: #383838;
        background-color: transparent;
        box-sizing: border-box;
-       
+       &::placeholder{
+            color: #383838
+       }
    }
    .select__head{
     border: 1px solid #E5E5E5;
@@ -610,4 +612,29 @@ input:invalid{
 
 .short-text{
     margin: 9px auto 27px;
+}
+
+
+
+@media (max-width: 760px){
+    .popup {
+        width: 300px;
+        padding: 45px 10px;
+    }
+    .wrap-fields{
+        flex-direction: column;
+    }
+    .field-50 {
+        width: 100%;
+    }
+    .short-text {
+        max-width: 100%;
+        margin: 8px auto;
+    }
+    .popup {
+        position: absolute;
+        top:30px;
+        transform: translateX(-50%) translateY(0%);
+       
+    }
 }
