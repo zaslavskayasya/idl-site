@@ -35,6 +35,10 @@
     font-weight: 200;
     font-size: 48px;
     transform: rotate(45deg);
+    color: #000;
+    &:hover{
+        opacity: 0.8
+    }
 }
 
 

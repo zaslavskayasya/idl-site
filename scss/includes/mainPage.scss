@@ -480,7 +480,7 @@
 
     .main-section {
         position: relative;
-        padding-bottom: 237px;
+        padding-bottom: 50px;
         // padding-bottom: 84px;
         .heading_3 span{
             max-width: 80%;
@@ -494,7 +494,7 @@
     }
 
     .main-section .btn {
-        position: absolute;
+        // position: absolute;
         // bottom: 187px;
     }
 
@@ -569,6 +569,12 @@
     .target .partners-item .wrap-logos {
         margin: 0 22px 0px 22px;
     }
+    .wrap-right.mx-auto{
+        padding: 0px;
+
+    }
+    
+
 }
 
 
@@ -676,6 +682,10 @@
     .flag {
         top: 129px;
     }
+    .font-40-25 {
+        padding-top:0px;
+    }
+    
 }
 
 @media (max-width: 600px){
