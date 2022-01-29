@@ -3,19 +3,22 @@
 
 .main-section {
     background-color: #151515;
+    background-image: url('.././img/main-page-bg.jpg');
+    background-size: cover;
     color: #fff;
-    padding-top: 100px;
+    padding-top: 133px;
     padding-bottom: 153px;
 }
 
 .wrap-main_text {
     @include d-flex-base;
     align-items: flex-end;
-    padding-bottom: 24px;
+    padding-bottom: 10px;
     position: relative;
     // border-bottom: 0.5px solid #383838;
     .h1{
         margin-top:56px;
+        color: #151515;
     }
 }
 .flag {
@@ -59,17 +62,20 @@
   } 
 
 .main-banner-text {
-    padding-top: 31px;
+    padding-top: 0px;
     padding-bottom: 61px;
-    border-bottom: 0.5px solid #383838;
+    // border-bottom: 0.5px solid #383838;
     margin-bottom: 47px;
     position: relative;
+    color: #151515;
 
     .normal_text {
         max-width: 43%;
         font-size: 16px;
-        line-height: 21px;
-        margin-bottom: 45px;
+        line-height: 25px;
+        margin-top: 10px;
+        margin-bottom: 65px;
+        color: #151515;
     }
     .btn {
         padding: 16px 44px;

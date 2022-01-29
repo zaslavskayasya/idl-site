@@ -61,6 +61,35 @@
 
 }
 
+.transparent-header{
+    background-color: transparent;
+    .logo_head {
+        svg .logo-fill {
+            fill: $darkColor;
+        }
+    }
+
+    .nav-link {
+        color: $darkColor;
+
+        &:hover:active {
+            color: $darkColor;
+            text-shadow: 0px 1px $darkColor;
+        }
+    }
+    .nav-line-top, .nav-line-bottom{
+        border-bottom-color: #C9C9C9;
+    }
+    .menu-burger__header:after, 
+    .menu-burger__header:before, 
+    .menu-burger__header span{
+        background: $darkColor;
+
+    }
+}
+
+
+
 .nav-item {
     color: $lightColor;
 }
@@ -107,14 +136,14 @@
 
 .logo_head {
     position: absolute;
-    top: 8px;
+    top: 20px;
     left: 0px
 }
 
 .menu {
     width: 100%;
     text-align: right;
-    padding-top: 19px;
+    padding-top: 33px;
 }
 
 .nav-line {
@@ -151,7 +180,7 @@
 
 .nav-line-top {
     border-bottom: 1px solid #383838;
-    padding-bottom: 18px;
+    padding-bottom: 26px;
 }
 
 .nav-line-bottom {
