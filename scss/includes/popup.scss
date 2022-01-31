@@ -474,14 +474,36 @@ input:invalid{
 
 // sucess block 
 
-.sucess-block{
+#sucess-block{
+    display: none;
+    .wrap-right{
+        display: inline-grid;
+    }
+    .btn {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    &.d-flex{
+        display: flex;
+    }
+
+}
+
+#registration-block{
+    display: flex;
+    &.d-none{
+        display: none;
+    }
+}
+
+
+.d-none {
     display: none;
 }
 
-.registration-block{
+.d-flex{
     display: flex;
 }
-
 
 
 input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
@@ -629,8 +651,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .short-text{
     margin: 9px auto 27px;
 }
-
-
 
 @media (max-width: 760px){
     .popup {

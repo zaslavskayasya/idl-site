@@ -3,11 +3,15 @@
 
 .main-section {
     background-color: #151515;
-    background-image: url('.././img/main-page-bg.jpg');
     background-size: cover;
     color: #fff;
     padding-top: 133px;
     padding-bottom: 153px;
+}
+
+.main-section.main-page-main{
+    background-image: url('.././img/main-page-bg.jpg');
+
 }
 
 .wrap-main_text {
