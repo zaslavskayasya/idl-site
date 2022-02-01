@@ -2,11 +2,16 @@
 
 .invest-section{
     padding-bottom: 391px;
-    padding-top: 100px;
-    position: relative;
-    border-bottom: 50px solid #433728;
+    padding-top: 170px;
+    position: relative;    
+    background: url("../../img/backgrounds/stage.jpg");
+    background-size: cover;
     .h1{
-        margin-bottom: 23px;
+        margin-bottom: 42px;
+    }
+    .heading_4{
+        line-height: 143.02%;
+        text-transform: none;
     }
 }
 
@@ -385,7 +390,7 @@ svg .opacity1{
         width: 512px;
     }
     .invest-section {
-        padding-bottom: 354px;
+        padding-bottom: 254px;
     }   
     .graph-wrp{
         width: 708px;
@@ -495,10 +500,10 @@ svg .opacity1{
 
 @media (max-width:760px){
     .invest-section{
-        padding-bottom: 385px;
+        padding-bottom: 100px;
         padding-top: 75px;
         position: relative;
-        border-bottom: 50px solid #433728;
+        // border-bottom: 50px solid #433728;
     }
     .invest-illustration{
         right: 50%;
