@@ -1,8 +1,20 @@
 .iquid-section{
     position: relative;
     padding-bottom: 0px;
+    background: url("../../img/backgrounds/liquid.jpg");
+    background-size: cover;
+    padding-bottom: 250px;
     .heading_3{
         font-weight: 400;;
+    }
+    .h1{
+        color: #fff;
+        margin-bottom: 20px;;
+    }
+    .heading_4{
+        text-transform: none;;
+        font-weight: 400;
+        max-width: 35%;;
     }
 }
 .pos-img{
@@ -127,6 +139,14 @@ section.earlier-section  > div.slider-sowrap > div.slid-names > div:nth-child(1)
 @media (max-width: 950px){
     .pos-img {
         height: 389px;
+    }
+    .iquid-section{
+        background: url("../../img/backgrounds/liquid-min.jpg");
+        background-size: cover;;
+        padding-bottom: 120px;;
+    }
+    .iquid-section .heading_4{
+        max-width: 100%;;
     }
 }
 

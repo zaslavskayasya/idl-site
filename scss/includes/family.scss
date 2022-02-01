@@ -1,11 +1,22 @@
 .Family-page-section{
-    padding-bottom: 0px;;
+    background: url("../../img/backgrounds/famil.jpg");
+    background-size: cover;;
+    padding-top: 190px;
+    padding-bottom: 424px;
     .container{
         position: relative;
-        padding-bottom: 607px;
+        padding-bottom: 0px;
     }
     .h1{
-        margin-bottom: 9px;
+        margin-bottom: 25px;
+        color: $darkColor;
+    }
+    .heading_4{
+        color: $darkColor;
+        text-transform: none;
+        max-width: 35%;
+        line-height: 150%;;
+
     }
 }
 
@@ -162,7 +173,18 @@
 
 
 @media (max-width:1200px ){
-
+    .Family-page-section{
+        padding-top: 100px;;
+        padding-bottom: 224px;
+        .h1{
+            margin-bottom: 25px;
+            color: $darkColor;
+        }
+        .heading_4{        
+            max-width: 55%;         
+    
+        }
+    }
 }
 
 @media (max-width:970px ){
@@ -207,9 +229,7 @@
     .table-persons {
         width: 500px;
     }
-    .Family-page-section .container {
-        padding-bottom: 407px;
-    }
+
     .roadto-section.roadto-section-fam{
         .h4{
             margin-bottom: 25px;
@@ -234,9 +254,6 @@
     }
     .Family-page-section .h1 {
         margin-bottom: 19px;
-    }
-    .Family-page-section .container {
-        padding-bottom: 532px;
     }
     .table-persons {
         width: 473px;
@@ -263,5 +280,19 @@
     .stand-lines .line.lines-30-p {
         height: auto;
         padding: 11px 15px;
+    }
+    .Family-page-section{
+        padding-top: 100px;;
+        padding-bottom: 224px;
+        background: url("../../img/backgrounds/famil-min.jpg");
+        background-position: right bottom;
+        .h1{
+            margin-bottom: 25px;
+            color: $darkColor;
+        }
+        .heading_4{        
+            max-width: 100%;         
+    
+        }
     }
 }
