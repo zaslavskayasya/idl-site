@@ -510,7 +510,8 @@ svg .opacity1{
     .invest-section{
         padding-top: 73px;
         padding-bottom: 472px;
-        background: url("./../img/backgrounds/stage-min-min.jpg");
+        background: url("./../img/backgrounds/stage-min.jpg");
+        background-size: cover;
     }
     .invest-section .h1 {
         margin-bottom: 0px;
@@ -606,4 +607,11 @@ svg .opacity1{
     }
     
 
+}
+
+@media (max-width:440px){
+    .invest-section{
+        background: url("./../img/backgrounds/stage-min-min.jpg");
+        background-size: cover;
+    }
 }
