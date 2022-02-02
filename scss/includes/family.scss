@@ -175,10 +175,10 @@
 
 @media (max-width:1200px ){
     .Family-page-section{
-        padding-top: 100px;;
-        padding-bottom: 224px;
+        // padding-top: 100px;;
+        padding-bottom: 324px;
         .h1{
-            margin-bottom: 25px;
+            margin-bottom: 5px;
             color: $darkColor;
         }
         .heading_4{        
@@ -284,16 +284,26 @@
     }
     .Family-page-section{
         padding-top: 100px;;
-        padding-bottom: 224px;
+        padding-bottom: 432px;
         background: url("./../img/backgrounds/famil-min.jpg");
         background-position: right bottom;
+        background-size: cover;
         .h1{
             margin-bottom: 25px;
             color: $darkColor;
+            margin-bottom: 0px;
         }
         .heading_4{        
-            max-width: 100%;         
-    
+            max-width: 100%; 
+            margin-top: 11px;
+            font-size: 14px; 
         }
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Family-page-section {
+        background: url(./../img/backgrounds/famil-min-min.jpg);
+        background-size: cover;
     }
 }

@@ -201,4 +201,29 @@ section.earlier-section  > div.slider-sowrap > div.slid-names > div:nth-child(1)
         margin-top: -19px;
         height: 42px;
     }
+    .iquid-section{
+        background: url("./../img/backgrounds/liquid-min-min.jpg");
+        background-size: cover;;
+        padding-bottom: 312px;
+        padding-top: 76px;
+    }
+    .iquid-section .heading_4{
+        max-width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 300px;
+        line-height: 20px;
+    }
+    .wrap-main_text .h1 {
+        margin-top: 27px;
+        max-width: 90%;
+        margin-bottom: 0px;;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .wrap-main_text .h1 {
+        margin-top: 27px;
+        max-width: 300px;
+    }
 }

@@ -590,8 +590,8 @@
 
 @media (max-width: 760px) {
     .main-section {
-        padding-top: 75px;
-        // overflow-x: hidden;
+        padding-top: 142px;
+       
     }
 
     .wrap-main_text {
@@ -665,7 +665,8 @@
         top: -20px;
     }
     .wrap-main_text .h1 {
-        font-size: 38px;
+        font-size: 44px;
+        font-weight: 600;
     }
     .target{
         display: block;;
@@ -680,11 +681,6 @@
     .flag .flag_text {
         padding-top: 8px;
     }
-    .main-banner-text {
-        padding-top: 2px;
-        max-width: 76%;
-        border-bottom: 0px;
-    }
     .illustration {
         left: auto;
         right: auto;
@@ -694,6 +690,20 @@
     }
     .font-40-25 {
         padding-top:0px;
+    }
+    .main-banner-text{
+        max-width: 100%;
+        padding-top: 2px;
+
+        border-bottom: 0px;
+    }
+    .main-banner-text .normal_text {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 45px;
+        color: #151515;
     }
     
 }
@@ -818,6 +828,10 @@
     .main-section .heading_3 span {
         max-width: 65%;
         display: inline-block;
+    }
+    .wrap-main_text .h1 {
+        font-size: 36px;
+        font-weight: 600;
     }
 }
 
